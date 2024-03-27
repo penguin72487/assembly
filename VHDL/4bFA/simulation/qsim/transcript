@@ -1,0 +1,30 @@
+# do demutiplex.do
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:13:24 on Mar 05,2024
+# vlog -work work demutiplex.vo 
+# -- Compiling module mux1
+# 
+# Top level modules:
+# 	mux1
+# End time: 11:13:24 on Mar 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 11:13:24 on Mar 05,2024
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module mux1_vlg_vec_tst
+# 
+# Top level modules:
+# 	mux1_vlg_vec_tst
+# End time: 11:13:24 on Mar 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.mux1_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 11:13:26 on Mar 05,2024
+# Loading work.mux1_vlg_vec_tst
+# Loading work.mux1
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# ** Note: $finish    : Waveform.vwf.vt(47)
+#    Time: 1 us  Iteration: 0  Instance: /mux1_vlg_vec_tst
+# End time: 11:13:26 on Mar 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

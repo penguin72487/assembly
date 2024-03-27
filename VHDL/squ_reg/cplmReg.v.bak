@@ -1,0 +1,8 @@
+module cplmReg(
+
+    input 
+
+    output reg [3:0] 
+
+
+);

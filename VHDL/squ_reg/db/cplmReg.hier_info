@@ -1,0 +1,27 @@
+|cplmReg
+clk => reg_out[0]~reg0.CLK
+clk => reg_out[1]~reg0.CLK
+clk => reg_out[2]~reg0.CLK
+clk => reg_out[3]~reg0.CLK
+rst_n => reg_out[0]~reg0.ACLR
+rst_n => reg_out[1]~reg0.ACLR
+rst_n => reg_out[2]~reg0.ACLR
+rst_n => reg_out[3]~reg0.ACLR
+parallel_data[0] => Mux3.IN2
+parallel_data[1] => Mux2.IN2
+parallel_data[2] => Mux1.IN2
+parallel_data[3] => Mux0.IN2
+S1 => Mux0.IN3
+S1 => Mux1.IN3
+S1 => Mux2.IN3
+S1 => Mux3.IN3
+S0 => Mux0.IN4
+S0 => Mux1.IN4
+S0 => Mux2.IN4
+S0 => Mux3.IN4
+reg_out[0] << reg_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_out[1] << reg_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_out[2] << reg_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+reg_out[3] << reg_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

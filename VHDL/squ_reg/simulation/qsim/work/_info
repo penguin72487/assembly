@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/gitproject/assembly/VHDL/squ_reg/simulation/qsim
+vcplmReg
+Z1 !s110 1711422962
+!i10b 1
+!s100 =nHDI^[9FAO_9RFdgbzd]1
+I7oezE3cnz8X4nebbz9l:^2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1711422961
+8cplmReg.vo
+FcplmReg.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1711422962.000000
+!s107 cplmReg.vo|
+!s90 -work|work|cplmReg.vo|
+!i113 1
+Z5 o-work work
+ncplm@reg
+vcplmReg_vlg_vec_tst
+R1
+!i10b 1
+!s100 Pn:X6bN4LKg4RUfSWDoc41
+I;L6dT@IG4L=60oGE<XkJg2
+R2
+R0
+w1711422958
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+ncplm@reg_vlg_vec_tst

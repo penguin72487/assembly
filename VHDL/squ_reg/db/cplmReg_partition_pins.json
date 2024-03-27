@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "reg_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "reg_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "parallel_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S1",
+					"strict" : false
+				},
+				{
+					"name" : "S0",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "parallel_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "parallel_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "parallel_data[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

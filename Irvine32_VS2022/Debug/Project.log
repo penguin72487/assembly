@@ -1,1 +1,3 @@
-﻿  Project.vcxproj -> C:\gitproject\assembly\Irvine32_VS2022\Debug\Project.exe
+﻿  Assembling AddTwo.asm...
+  LINK : 最後的累加連結找不到或未建置 C:\gitproject\assembly\Irvine32_VS2022\Debug\Project.exe，正在執行完整連結
+  Project.vcxproj -> C:\gitproject\assembly\Irvine32_VS2022\Debug\Project.exe

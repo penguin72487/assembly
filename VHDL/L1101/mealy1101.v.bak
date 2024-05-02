@@ -1,0 +1,23 @@
+module seq_recognizer_mealy(
+    input wire x, clk, reset,
+    output wire z
+);
+    reg [3:0] state, next_state;
+    reg z_out;
+
+    parameter S0 = 4'b0000, S1 = 4'b0001, S2 = 4'b0010, S3 = 4'b0011, S4 = 4'b0100;
+
+    always @* begin
+        next_state = state;
+        case (state)
+            S0: next_state = x ? S1 : S0;
+            S1: next_state = x ? S1 : S2;
+            S2: next_state = x ? S3 : S0;
+            S3: next_state = x ? S1 : S4;
+            S4: {z_out,next_state} = x ? {1,S1} : {0,S0};
+            default: next_state = S0;
+        endcase
+    end
+
+    assign z = z_out;
+endmodule

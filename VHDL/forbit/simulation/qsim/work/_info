@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/gitproject/assembly/VHDL/forbit/simulation/qsim
+vfour_bit_counter
+Z1 !s110 1713233189
+!i10b 1
+!s100 GE4YI>jNMIh`=_3PlbCOb2
+I^=h<RSR<?kja;j?=7dU1<0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713233189
+8four_bit_counter.vo
+Ffour_bit_counter.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1713233189.000000
+!s107 four_bit_counter.vo|
+!s90 -work|work|four_bit_counter.vo|
+!i113 1
+Z5 o-work work
+vfour_bit_counter_vlg_vec_tst
+R1
+!i10b 1
+!s100 JZP=Uf^J:jGBXo^SbDDb@1
+IjJB3G4gH=Fj<kRFSc^WRk3
+R2
+R0
+w1713233186
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5

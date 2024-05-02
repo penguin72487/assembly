@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/gitproject/assembly/VHDL/L1101/simulation/qsim
+vmealy1101
+Z1 !s110 1712894242
+!i10b 1
+!s100 DH^c9af^4nG9nA[HW;G?X2
+IGP@bfLGNNFl[9T9bfd]Bc2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1712894241
+8mealy1101.vo
+Fmealy1101.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1712894242.000000
+!s107 mealy1101.vo|
+!s90 -work|work|mealy1101.vo|
+!i113 1
+Z5 o-work work
+vmealy1101_vlg_vec_tst
+R1
+!i10b 1
+!s100 8Hj79@@Q2]`Cj8LFN:iB;3
+IT]hF^XjQjg_O0n5YEla^L1
+R2
+R0
+w1712894238
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5

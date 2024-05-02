@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!--Created by Liquid XML 2008 (www.liquid-technologies.com) for Altera-->
+<ProgramExecution xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+	<QuartusExecution>
+		<AddressBits>64</AddressBits>
+		<ApplicationError>
+		<Bits>64</Bits>
+		<CommandLine>quartus C:\gitproject\assembly\VHDL\L1101\mealy1101.qpf</CommandLine>
+		<ErrorMessage>Access Violation at 0X00007FFDAD45ABB4</ErrorMessage>
+		<Line>0</Line>
+		<Platform>windows</Platform>
+		<SourceFile>unknown</SourceFile>
+		<StackTrace>
+	0x7ffdad45abb3: gdiplus + 0x7abb3 (GdipDeletePrivateFontCollection + 0x83)
+	0x7ffd8fc7cbed: AsusIME + 0x8cbed (?CheckCapabilityAsync@AppCapabilityWrapper@@SAXV?$function@$$A6AXUCapabilityInfo@AppCapabilityWrapper@@@Z@std@@@Z + 0x9bbd)
+	0x7ffdbcff42d5: ucrtbase + 0x142d5 (_execute_onexit_table + 0x155)
+	0x7ffdbcff41fa: ucrtbase + 0x141fa (_execute_onexit_table + 0x7a)
+	0x7ffdbcff41b3: ucrtbase + 0x141b3 (_execute_onexit_table + 0x33)
+	0x7ffd8fc748cc: AsusIME + 0x848cc (?CheckCapabilityAsync@AppCapabilityWrapper@@SAXV?$function@$$A6AXUCapabilityInfo@AppCapabilityWrapper@@@Z@std@@@Z + 0x189c)
+	0x7ffd8fc749f1: AsusIME + 0x849f1 (?CheckCapabilityAsync@AppCapabilityWrapper@@SAXV?$function@$$A6AXUCapabilityInfo@AppCapabilityWrapper@@@Z@std@@@Z + 0x19c1)
+	0x7ffdbf5a9a1c: ntdll + 0x19a1c (RtlActivateActivationContextUnsafeFast + 0x11c)
+	0x7ffdbf5edcd9: ntdll + 0x5dcd9 (LdrShutdownProcess + 0x229)
+	0x7ffdbf5eda8c: ntdll + 0x5da8c (RtlExitUserProcess + 0xac)
+	0x7ffdbf39e3ba: KERNEL32 + 0x1e3ba (FatalExit + 0xa)
+	0x7ffda59429a6: MSVCR120 + 0x229a6 (_initterm_e + 0x21a)
+	0x7ff687b31e6f: quartus + 0x1e6f
+	0x7ffdbf397343: KERNEL32 + 0x17343 (BaseThreadInitThunk + 0x13)
+	0x7ffdbf5e26b0: ntdll + 0x526b0 (RtlUserThreadStart + 0x20)
+		</StackTrace>
+		<Subsystem>unknown</Subsystem>
+	</ApplicationError>
+	<Compilation>
+			<CompileID>0</CompileID>
+			<DeviceFamily/>
+			<IncrementalCompilation/>
+			<TopLevelEntityName/>
+		</Compilation>
+		<DateInvoked>2024/04/12 11:54:03</DateInvoked>
+		<ElapsedTime>20302</ElapsedTime>
+		<IP>10.50.1.5,192.168.50.211</IP>
+		<IsInternal>false</IsInternal>
+		<IsQt>true</IsQt>
+		<License>
+			<Edition>Lite Edition</Edition>
+			<LicenseHostID/>
+		</License>
+		<Machine>
+			<CPUCountLogical>16</CPUCountLogical>
+			<CPUCountPhysical>1</CPUCountPhysical>
+			<CPUSpeed>3400</CPUSpeed>
+			<Hostname>DESKTOP-S2EJIB1</Hostname>
+			<NIC>
+				<Address>2cfda1bb19be</Address>
+			</NIC>
+			<OS>Windows 8</OS>
+			<OSAddressBits>64</OSAddressBits>
+			<OSVersion>6.2</OSVersion>
+			<Platform>windows</Platform>
+			<ScreenResolution>unknown</ScreenResolution>
+			<TotalPhysicalRAM>130964</TotalPhysicalRAM>
+			<TotalVirtualRAM>19456</TotalVirtualRAM>
+		</Machine>
+		<Name>quartus</Name>
+		<PeakMemoryUsed>0</PeakMemoryUsed>
+		<ProjectRevision>
+			<ProjectName/>
+			<Revision/>
+		</ProjectRevision>
+		<QuartusInstallation>
+			<InstallationID>49467851741630.170012034530976</InstallationID>
+			<Version>
+				<Build>185</Build>
+				<BuildSite>SJ</BuildSite>
+				<BuildSuffix/>
+				<Edition>Lite Edition</Edition>
+				<ServicePack>0</ServicePack>
+				<VersionNumber>15.1</VersionNumber>
+			</Version>
+		</QuartusInstallation>
+		<QuartusUser>
+			<AlteraUserName/>
+			<FAEContactName/>
+			<TalkbackStatus>
+				<DateSet/>
+				<TalkbackOn>true</TalkbackOn>
+			</TalkbackStatus>
+			<UserID>49467851741630.170005015613532</UserID>
+			<UserName>agari</UserName>
+		</QuartusUser>
+	</QuartusExecution>
+	<SchemaVersion>schema_2013-01-18</SchemaVersion>
+</ProgramExecution>
+

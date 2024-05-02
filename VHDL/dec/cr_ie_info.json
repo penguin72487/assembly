@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 8",
+		"os_version" : "6.2"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "Access Violation at 0X00007FFFAF32ABB7",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t0x7fffaf32abb6: gdiplus + 0x7abb6 (GdipDeletePrivateFontCollection + 0x86)\n\t0x7fff8047cbed: AsusIME + 0x8cbed (?CheckCapabilityAsync@AppCapabilityWrapper@@SAXV?$function@$$A6AXUCapabilityInfo@AppCapabilityWrapper@@@Z@std@@@Z + 0x9bbd)\n\t0x7fffbf7642d5: ucrtbase + 0x142d5 (_execute_onexit_table + 0x155)\n\t0x7fffbf7641fa: ucrtbase + 0x141fa (_execute_onexit_table + 0x7a)\n\t0x7fffbf7641b3: ucrtbase + 0x141b3 (_execute_onexit_table + 0x33)\n\t0x7fff804748cc: AsusIME + 0x848cc (?CheckCapabilityAsync@AppCapabilityWrapper@@SAXV?$function@$$A6AXUCapabilityInfo@AppCapabilityWrapper@@@Z@std@@@Z + 0x189c)\n\t0x7fff804749f1: AsusIME + 0x849f1 (?CheckCapabilityAsync@AppCapabilityWrapper@@SAXV?$function@$$A6AXUCapabilityInfo@AppCapabilityWrapper@@@Z@std@@@Z + 0x19c1)\n\t0x7fffc1b49a1c: ntdll + 0x19a1c (RtlActivateActivationContextUnsafeFast + 0x11c)\n\t0x7fffc1b8dcd9: ntdll + 0x5dcd9 (LdrShutdownProcess + 0x229)\n\t0x7fffc1b8da8c: ntdll + 0x5da8c (RtlExitUserProcess + 0xac)\n\t0x7fffc1a4e3ba: KERNEL32 + 0x1e3ba (FatalExit + 0xa)\n\t0x7fffa7cf29a6: MSVCR120 + 0x229a6 (_initterm_e + 0x21a)\n\t0x7ff799561e6f: quartus + 0x1e6f\n\t0x7fffc1a47343: KERNEL32 + 0x17343 (BaseThreadInitThunk + 0x13)\n\t0x7fffc1b826b0: ntdll + 0x526b0 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "15.1.0",
+		"build" : "185",
+		"edition" : "Lite Edition"
+	}
+}

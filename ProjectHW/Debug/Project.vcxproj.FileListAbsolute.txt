@@ -1,0 +1,2 @@
+C:\app\Irvine32_VS2022\Debug\Project.exe
+C:\gitproject\assembly\Irvine32_VS2022\Debug\Project.exe
